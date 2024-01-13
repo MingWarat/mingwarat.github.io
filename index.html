@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MingWarat Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Your+Font+Family&display=swap">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="preloader"></div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/2.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">My Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <!-- -----------download port---------- -->
+            <a href="images/ศิลปากร สนามจันทร์.pdf" download>
+                <button class="download-portfolio">See My Portfolio</button>
+            </a>
+            <!-- -----------download port---------- -->
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text" id="Home">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Studying in Bangsaphanwittaya School</h4>
+            <H1>Hello, I'm <span>Waratchaya Kerdsomjit</span></H1>
+            <H2>You can call me <span>Ming (มิ่ง)</span></H2>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me-all-face-gif-3200x3200-edited.gif">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                I'm Ming I am studying in Science-Math Program in Bangsaphanwittaya School. 
+                    <br> I want to be a Data Science.
+                    <br>My strength are honest and fast learning.
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>3D Modeling</span><br>Blender (Sculpting,Modeling,Shading,Production)</li>
+                        <li><span>Pixel Art</span><br>(Animation)</li>
+                        <li><span>Game Develop</span><br>Unity (Make World/Avatar in Computer Games)</li>
+                        <li><span>Database Management</span><br>Google Sheets, Excel</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Student Arts And Craft Competition (Motion Infographic)</span><br>2nd place award</li>
+                        <li><span>Since 2020</span><br>Unity (Make World/Avatar in VRChat)</li>
+                        <li><span>Imagination of the future of science and technology(สพฐ.คพศ.)</span><br>Bronze level award</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Primary School</span><br>Bangsaphan School</li>
+                        <li><span>Junior High School</span><br>Bangsaphanwittaya School</li>
+                        <li><span>Senior High School</span><br>Bangsaphanwittaya School(Science-Math Program)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------My Project------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Mable Model.png">
+                <div class="layer">
+                    <h3>3D Model</h3>
+                    <p>Use Blender to make 3D model, animation and simulation.</p>
+                    <a href="https://www.canva.com/design/DAF40vE2QFI/wUVvTiK7SWrwV5XZdbyoHQ/view?utm_content=DAF40vE2QFI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/unnamed.png">
+                <div class="layer">
+                    <h3>Games make by Python</h3>
+                    <p>I try to make mini game in python to learn this language</p>
+                    <a href="https://drive.google.com/drive/folders/1POK3DFb-AgIBkBEcfMFbLBbgmXeEzls4?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/coming-soon.png">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p></p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="project.html" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> waratchaya.aaming@gmail.com</p>
+                <p><i class="fab fa-discord"></i>littledog4458</p>
+                <p><i class="fab fa-line"></i>ming0473</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008219776482"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/ming.warat/"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Waratchaya Kerdsomjit All Rights Reserved.</p>
+        <div class="icon-container">
+            <img src="images/arrow.png" class="icon-arrow" onclick="location.href='#'">
+        </div>
+    </div>
+    
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+  
+</body>
+</html>

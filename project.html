@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-xxxxxx" crossorigin="anonymous">
+    <title>Projects & Award</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="images/2.jpg" class="logo">
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="#Home">Awards</a></li>
+                    <li><a href="#Activity">Activity</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" id="Home">
+                <h1>Awards</h1>
+            </div>
+        </div>
+<!-- -----------award---------- -->        
+    <div id="award">
+        <div class="container">
+            <div class="row">
+                <div class="award-col-1">
+                    <img src="images/ศิลปหัตถกรรม70.jpg" class="Competition-1">
+                </div>
+                <div class="award-col-2">
+                    <h3>ศิลปหัตถกรรมนักเรียน ระดับเขตพื้นที่การศึกษา ครั่งที่ 70 
+                        <br>ได้รับรางวัลระดับเหรียญทอง</h3>
+                    <h2>รองชนะเลิศอันดับที่ 1</h2>
+
+                </div>
+                
+                <div class="award-col-3">
+                    <h3>ศิลปหัตถกรรมนักเรียน ระดับเขตพื้นที่การศึกษา ครั่งที่ 71
+                        <br>ได้รับรางวัลระดับเหรียญทอง
+                    </h3>
+                    <h2> ชนะเลิศ</h2>
+                </div>
+                <div class="award-col-4">
+                    <img src="images/ศิลปหัตถกรรม71.jpg" class="Competition-2">
+                </div>
+                <div class="award-col-5">
+                    <img src="images/เรียนดี5-2.jpg" class="เรียนดี1">
+                    <h2 class="1-1">รางวัลนักเรียน เรียนดี</h2>
+                    <h3>ชั้นมัธยมศึกษาปีที่ 5 ภาคเรียนที่ 2 </h3>
+                </div>
+                <div class="award-col-5">
+                    <img src="images/เรียนเ6-1.jpg" class="เรียนดี1">
+                    <h2 class="1-1">รางวัลนักเรียน เรียนดี</h2>
+                    <h3>ชั้นมัธยมศึกษาปีที่ 6 ภาคเรียนที่ 1</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------activity---------- -->
+    <div id="Activity">
+        <div class="container">
+            <div class="header-text">
+                <h1>Activity</h1>
+            </div>
+            <div class="row">
+                <div class="activity-col-1">
+                    <img src="images/มัสยิด.jpg">
+                </div>
+                <div class="activity-col-2">
+                    <h2>กิจกรรมจิตอาสา</h2>
+                    <h3>บริการเสิร์ฟอาหารและเครื่องดื่มให้กับแขกที่มางาน</h3>
+                </div>
+                <div class="activity-col-3">
+                    <h2>กิจกรรมเชิงสันทนาการ</h2>
+                    <h3>ลงแข่งบาสเกตบอล จากกิจกรรมราชพฤกษ์เกมส์ <br>ปีการศึกษา 2565 </h3>
+                </div>
+                <div class="activity-col-4">
+                    <img src="images/บาส (1).jpg">
+                </div>
+                <div class="activity-col-5">
+                    <img src="images/ขบวน.jpg">
+                </div>
+                <div class="activity-col-6">
+                    <h2>กิจกรรมเชิงสันทนาการ</h2>
+                    <h3>เข้าร่วมขบวนพาเหรดกีฬาสี ปีการศึกษา 2566 </h3>
+                </div>
+                <div class="activity-col-7">
+                    <h2>กิจกรรมของชุมนุม Coding</h2>
+                    <h3>นำเสนอเกมดูดวงจากโปรแกรม Scratch แก่ตัวแทนแผนก IT 
+                        <br> จากบริษัท SSI (Sahaviriya Steel Industries)</h3>
+                </div>
+                <div class="activity-col-8">
+                    <img src="images/scratch.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Scroll-to-Top">
+        <div class="btn">
+            <a onclick="scrollToTop()">Scroll to Top</a>
+            
+            <script>
+                function scrollToTop() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+              </script>
+        </div>
+    </div>
+    
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    
+    </script>
+</body>
+</html>
