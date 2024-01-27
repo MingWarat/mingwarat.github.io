@@ -69,3 +69,28 @@ document.addEventListener('scroll', function() {
     var scrollTop = window.scrollY || document.documentElement.scrollTop;
     history.replaceState({ scrollTop: scrollTop }, ''); 
 });
+
+document.addEventListener('keydown', function(event) {
+    // ตรวจสอบว่าปุ่มที่ถูกกดคือ เลข 1
+    if (event.key === '1') {
+      // นำทางไปยังหัวข้อหน้าเว็บที่ต้องการ
+      window.location.href = '#about';
+    }
+  });
+
+document.addEventListener('keydown', function(event) {
+    // ตรวจสอบว่าปุ่มที่ถูกกดคือ เลข 2
+    if (event.key === '2') {
+      // นำทางไปยังหัวข้อหน้าเว็บที่ต้องการ
+      window.location.href = '#project';
+    }
+  });
+  
+document.addEventListener('keydown', function(event) {
+    // ตรวจสอบว่าปุ่มที่ถูกกดคือ เลข 3
+    if (event.key === '3') {
+      // นำทางไปยังหัวข้อหน้าเว็บที่ต้องการ
+      window.location.href = '#contact';
+    }
+  });
+  
